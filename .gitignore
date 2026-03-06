@@ -212,6 +212,11 @@ runs/
 data/episodes/
 .idea/
 
+# Docs (local analysis only — not for version control)
+docs/overview.md
+docs/use-cases.md
+docs/getting-started.md
+
 # Frontend
 frontend/node_modules/
 frontend/dist/

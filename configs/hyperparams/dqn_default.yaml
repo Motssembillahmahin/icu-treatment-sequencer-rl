@@ -1,0 +1,25 @@
+agent: dqn
+total_timesteps: 1000000
+n_envs: 1
+checkpoint_freq: 50000
+eval_freq: 10000
+eval_episodes: 10
+log_interval: 1
+verbose: 1
+
+dqn:
+  learning_rate: 0.0001
+  buffer_size: 100000
+  learning_starts: 1000
+  batch_size: 32
+  tau: 1.0
+  gamma: 0.99
+  train_freq: 4
+  gradient_steps: 1
+  target_update_interval: 1000
+  exploration_fraction: 0.1
+  exploration_final_eps: 0.05
+
+env:
+  max_steps: 72
+  n_envs: 1

@@ -1,0 +1,7 @@
+max_steps: 72
+survival_consecutive_steps: 12
+death_map_threshold: 30.0
+death_map_steps: 3
+death_spo2_threshold: 70.0
+death_spo2_steps: 2
+death_lactate_threshold: 15.0
